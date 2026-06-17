@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Incredible Hacks for a Simple Life!" />
+  <title>FocusedBuzz – Incredible Hacks for a Simple Life!</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <span>Incredible Hacks for a Simple Life!</span>
+    <div class="topbar-links">
+      <a href="#">Contact</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-focused">Focused</span><span class="logo-buzz">Buzz</span>
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a href="#autos">Autos</a></li>
+          <li><a href="#finance">Finance</a></li>
+          <li><a href="#health">Health</a></li>
+          <li><a href="#home-garden">Home &amp; Garden</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <ul>
+        <li><a href="#autos">Autos</a></li>
+        <li><a href="#finance">Finance</a></li>
+        <li><a href="#health">Health</a></li>
+        <li><a href="#home-garden">Home &amp; Garden</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SLIDER -->
+  <section class="hero">
+    <div class="hero-slide active" style="background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1400&q=80')">
+      <div class="hero-content">
+        <span class="hero-cat">Home &amp; Garden</span>
+        <h1>7 Tips To Make Your Home Look Luxurious</h1>
+        <p>In an ideal world, we'd all have access to a skilled interior designer who could help create spaces that exude comfort and refinement.</p>
+        <a href="article.html" class="btn-read">Read More</a>
+      </div>
+    </div>
+    <div class="hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1400&q=80')">
+      <div class="hero-content">
+        <span class="hero-cat">Health</span>
+        <h1>5 Strategies To Keep Your Mind And Body Healthy</h1>
+        <p>The key to a much happier life is a healthy mind in a healthy body. Here are five strategies to keep you thriving.</p>
+        <a href="article.html" class="btn-read">Read More</a>
+      </div>
+    </div>
+    <div class="hero-slide" style="background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1400&q=80')">
+      <div class="hero-content">
+        <span class="hero-cat">Autos</span>
+        <h1>3 Auto Shows To Look Forward To In 2025</h1>
+        <p>From concept cars to electric vehicles, these are the must-attend auto shows of the year.</p>
+        <a href="article.html" class="btn-read">Read More</a>
+      </div>
+    </div>
+    <div class="hero-controls">
+      <button class="hero-btn prev" id="heroPrev">&#8592;</button>
+      <div class="hero-dots" id="heroDots"></div>
+      <button class="hero-btn next" id="heroNext">&#8594;</button>
+    </div>
+  </section>
+
+  <!-- FEATURED STRIP -->
+  <div class="featured-strip">
+    <div class="container strip-inner">
+      <a href="article.html" class="strip-item">
+        <span class="strip-cat finance">Finance</span>
+        <span class="strip-title">How to Build an Emergency Fund Fast</span>
+      </a>
+      <a href="article.html" class="strip-item">
+        <span class="strip-cat health">Health</span>
+        <span class="strip-title">Daily Habits for a Good Blood Sugar Level</span>
+      </a>
+      <a href="article.html" class="strip-item">
+        <span class="strip-cat autos">Autos</span>
+        <span class="strip-title">Best Electric Cars Under $40,000</span>
+      </a>
+      <a href="article.html" class="strip-item">
+        <span class="strip-cat home">Home &amp; Garden</span>
+        <span class="strip-title">Budget-Friendly Home Improvement Ideas</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="main container">
+
+    <!-- HOME & GARDEN -->
+    <section class="cat-section" id="home-garden">
+      <div class="section-head">
+        <h2 class="section-title"><span class="accent-bar"></span>Home &amp; Garden</h2>
+        <a href="#" class="see-all">See All →</a>
+      </div>
+      <div class="cards-grid">
+        <article class="card card-large">
+          <div class="card-img" style="background-image:url('https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&q=80')">
+            <span class="tag">Home &amp; Garden</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="article.html">7 Tips To Make Your Home Look Luxurious</a></h3>
+            <p>You don't have to spend a lot of money to achieve your results, whether you're fixing up a small apartment or a large home.</p>
+            <div class="card-meta"><span>By Robert Bailey</span><span>5 min read</span></div>
+          </div>
+        </article>
+        <div class="cards-stack">
+          <article class="card card-small">
+            <div class="card-img sm" style="background-image:url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80')">
+              <span class="tag">Home &amp; Garden</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="article.html">A Beginner's Guide To Creating An Organic Garden</a></h3>
+              <div class="card-meta"><span>By Joseph Martin</span></div>
+            </div>
+          </article>
+          <article class="card card-small">
+            <div class="card-img sm" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80')">
+              <span class="tag">Home &amp; Garden</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="article.html">8 Easy To Grow Indoor Plants For Your Home</a></h3>
+              <div class="card-meta"><span>By Elizabeth Taylor</span></div>
+            </div>
+          </article>
+          <article class="card card-small">
+            <div class="card-img sm" style="background-image:url('https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=600&q=80')">
+              <span class="tag">Home &amp; Garden</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="article.html">6 Steps To Planning A Whole House Remodel</a></h3>
+              <div class="card-meta"><span>By James Hill</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HEALTH -->
+    <section class="cat-section" id="health">
+      <div class="section-head">
+        <h2 class="section-title"><span class="accent-bar health-bar"></span>Health</h2>
+        <a href="#" class="see-all">See All →</a>
+      </div>
+      <div class="cards-row">
+        <article class="card card-med">
+          <div class="card-img med" style="background-image:url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=700&q=80')">
+            <span class="tag tag-health">Health</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="article.html">5 Strategies To Keep Your Mind And Body Healthy</a></h3>
+            <p>The key to a much happier life is a healthy mind in a healthy body.</p>
+            <div class="card-meta"><span>By Sarah Johnson</span><span>4 min read</span></div>
+          </div>
+        </article>
+        <article class="card card-med">
+          <div class="card-img med" style="background-image:url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=700&q=80')">
+            <span class="tag tag-health">Health</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="article.html">7 Reasons Why Physical Fitness Is Important</a></h3>
+            <p>Any movement that requires energy is physical exercise — and it's vital for your long-term health.</p>
+            <div class="card-meta"><span>By Michael Lee</span><span>6 min read</span></div>
+          </div>
+        </article>
+        <article class="card card-med">
+          <div class="card-img med" style="background-image:url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=700&q=80')">
+            <span class="tag tag-health">Health</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="article.html">Do This Daily To Maintain A Good Blood Sugar Level</a></h3>
+            <p>Blood sugar supervision is significant to comprehensive wellbeing in a variety of ways.</p>
+            <div class="card-meta"><span>By Anna Clark</span><span>5 min read</span></div>
+          </div>
+        </article>
+        <article class="card card-med">
+          <div class="card-img med" style="background-image:url('https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=700&q=80')">
+            <span class="tag tag-health">Health</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="article.html">Most Common Health Dangers Women Face</a></h3>
+            <p>Many women's health concerns are misdiagnosed — here's what you need to know.</p>
+            <div class="card-meta"><span>By Linda White</span><span>7 min read</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 2-COLUMN SPLIT: FINANCE + AUTOS -->
+    <div class="two-col-split">
+
+      <!-- FINANCE -->
+      <section class="cat-section split-left" id="finance">
+        <div class="section-head">
+          <h2 class="section-title"><span class="accent-bar finance-bar"></span>Finance</h2>
+          <a href="#" class="see-all">See All →</a>
+        </div>
+        <article class="card card-vert">
+          <div class="card-img vert" style="background-image:url('https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=700&q=80')">
+            <span class="tag tag-finance">Finance</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="article.html">How To Build An Emergency Fund in 6 Months</a></h3>
+            <p>Financial security starts with a safety net. Here's how to build yours from scratch.</p>
+            <div class="card-meta"><span>By Chris Adams</span><span>5 min read</span></div>
+          </div>
+        </article>
+        <ul class="list-articles">
+          <li><a href="article.html"><span class="list-tag finance-tag">Finance</span>Smart Ways To Cut Monthly Expenses Without Feeling It</a></li>
+          <li><a href="article.html"><span class="list-tag finance-tag">Finance</span>Understanding Your Credit Score: A Simple Guide</a></li>
+          <li><a href="article.html"><span class="list-tag finance-tag">Finance</span>How To Start Investing With Just $100</a></li>
+        </ul>
+      </section>
+
+      <!-- AUTOS -->
+      <section class="cat-section split-right" id="autos">
+        <div class="section-head">
+          <h2 class="section-title"><span class="accent-bar autos-bar"></span>Autos</h2>
+          <a href="#" class="see-all">See All →</a>
+        </div>
+        <article class="card card-vert">
+          <div class="card-img vert" style="background-image:url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=700&q=80')">
+            <span class="tag tag-autos">Autos</span>
+          </div>
+          <div class="card-body">
+            <h3><a href="article.html">3 Auto Shows To Look Forward To In 2025</a></h3>
+            <p>From concept cars to electric vehicles, these are the must-attend auto shows of the year.</p>
+            <div class="card-meta"><span>By Daniel Ford</span><span>4 min read</span></div>
+          </div>
+        </article>
+        <ul class="list-articles">
+          <li><a href="article.html"><span class="list-tag autos-tag">Autos</span>Best Electric Cars Under $40,000 in 2025</a></li>
+          <li><a href="article.html"><span class="list-tag autos-tag">Autos</span>How To Maintain Your Car Engine This Winter</a></li>
+          <li><a href="article.html"><span class="list-tag autos-tag">Autos</span>Top 5 SUVs for Family Road Trips</a></li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+      <div class="newsletter-inner">
+        <h2>Stay in the loop</h2>
+        <p>Get the best hacks for a simple life delivered straight to your inbox.</p>
+        <form class="newsletter-form" onsubmit="return false;">
+          <input type="email" placeholder="Enter your email address…" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo footer-logo">
+          <span class="logo-focused">Focused</span><span class="logo-buzz">Buzz</span>
+        </div>
+        <p>Focusedbuzz is your one-stop destination for guidance on autos, health, finance, home &amp; garden.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="#autos">Autos</a></li>
+          <li><a href="#finance">Finance</a></li>
+          <li><a href="#health">Health</a></li>
+          <li><a href="#home-garden">Home &amp; Garden</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Preferences</a></li>
+        </ul>
+      </div>
+      <div class="footer-recent">
+        <h4>Recent Articles</h4>
+        <ul>
+          <li><a href="article.html">Diets To Help Mitigate The Effects Of Lactose</a></li>
+          <li><a href="article.html">5 Ways to Optimize Gut Health</a></li>
+          <li><a href="article.html">4 Exercises To Help Reduce Knee Pain</a></li>
+          <li><a href="article.html">3 Auto Shows To Look Forward To In 2025</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>FocusedBuzz © 2025 — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
